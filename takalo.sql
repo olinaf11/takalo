@@ -67,7 +67,7 @@ insert into objet(nom,prix,id_cat,id_user) value('googlePixel','300',3,3);
 -- insert into proposition(idObject_proposer,idObject_demander)values(3,3);
 -- insert into proposition(idObject_proposer,idObject_demander)values(5,4);
 
--- 
+-- lien_image
 insert into lien_image(id_objet,lien)values(1,'LandCruiserV8.png');
 insert into lien_image(id_objet,lien)values(2,'Touareg.png');
 insert into lien_image(id_objet,lien)values(3,'VXR.png');
