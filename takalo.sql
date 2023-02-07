@@ -62,10 +62,10 @@ insert into objet(nom,prix,id_cat,id_user) value('iphone','300',3,1);
 insert into objet(nom,prix,id_cat,id_user) value('samsung','300',3,2);
 insert into objet(nom,prix,id_cat,id_user) value('googlePixel','300',3,3);
 -- 
-insert into proposition(idObject_proposer,idObject_demander)values(1,2);
-insert into proposition(idObject_proposer,idObject_demander)values(2,1);
-insert into proposition(idObject_proposer,idObject_demander)values(3,3);
-insert into proposition(idObject_proposer,idObject_demander)values(5,4);
+-- insert into proposition(idObject_proposer,idObject_demander)values(1,2);
+-- insert into proposition(idObject_proposer,idObject_demander)values(2,1);
+-- insert into proposition(idObject_proposer,idObject_demander)values(3,3);
+-- insert into proposition(idObject_proposer,idObject_demander)values(5,4);
 
 -- 
 insert into lien_image(id_objet,lien)values(1,'LandCruiserV8.png');
