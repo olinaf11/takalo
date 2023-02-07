@@ -1,24 +1,23 @@
 <?php
 
-class Login extends CI_Controller{
-
+class loginAdmin extends CI_Model{
     public function __construct(){
-        $this->load->model('login_model','login');
+        $this->load->model('logAdmin_model','logAdmin');
     }
 
     public function index(){
-        $this->load->view('login');
+        $this->load->view('logAdmin');
     }
 
     public function log(){
         $email = $this->input->post('email');
         $password = $this->input->post('password');
-        if (!$this->login->checkLogin($email, $password)){
+        if (!$this->login->checkLogAdmin($email, $password)){
             $_SESSION['erreur'] = "Erreur de mot de passe ou mail";
-            redirect(base_url('login'));
+            redirect(base_url('logAdmin'));
         }else{
             $_SESSION['id'] = $this->login->getId($email, $password);
-            redirect(base_url('accueil'));
+            redirect(base_url('gestionObjet'));
         }
     }
 }
