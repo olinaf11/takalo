@@ -46,19 +46,22 @@
                     <div class="header__nav">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="<?php echo base_url('application/views/Acceuil/index.php')?>">Homepage</a></li>
-                                <li><a href="./categories.html">Categories <span class="arrow_carrot-down"></span></a>
+                                <li <?php if ($active==0) { ?>class="active"
+                                 <?php } ?>>
+                                    <a href="<?php echo base_url('accueil')?>">Homepage</a>
+                                </li>
+                                <li <?php if ($active==1) { ?>class="active"
+                                    <?php } ?>>
+                                    <a href=""><?=$dropdown?> <span class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown">
                                         <li><a href="./categories.html">Categories</a></li>
                                         <li><a href="./anime-details.html">Anime Details</a></li>
                                         <li><a href="./anime-watching.html">Anime Watching</a></li>
                                         <li><a href="./blog-details.html">Blog Details</a></li>
-                                        <li><a href="<?php echo base_url('C_signup')?>">Sign Up</a></li>
-                                        <li><a href="<?php echo base_url('C_login')?>">Login</a></li>
+                                        <li><a href="<?php echo base_url('signup')?>">Sign Up</a></li>
+                                        <li><a href="<?php echo base_url('login')?>">Login</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./blog.html">Our Blog</a></li>
-                                <li><a href="#">Contacts</a></li>
                             </ul>
                         </nav>
                     </div>

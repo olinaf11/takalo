@@ -1,16 +1,16 @@
 <?php
-
+defined('BASEPATH') OR exit('No direct script access allowed');
 class Login extends CI_Controller{
-
-    public function __construct(){
-        $this->load->model('login_model','login');
-    }
-
     public function index(){
-        $this->load->view('login');
+        $data=array();
+        $data['content']="Login/login";
+        $data['dropdown']="Log in";
+        $data['active']=1;
+        $this->load->view('index', $data);
     }
 
     public function log(){
+        $this->load->model('login_model','login');
         $email = $this->input->post('email');
         $password = $this->input->post('password');
         if (!$this->login->checkLogin($email, $password)){
