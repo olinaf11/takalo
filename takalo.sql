@@ -40,6 +40,7 @@ create TABLE client(
        idObject_demander int  not null REFERENCES objet(id)
    );
 
+
 insert into admin(mdp,mail)values('admin','admin@gmail.com');
 -- 
 insert into client(mdp,mail)values('fanilo','fanilo@gmail.com');
