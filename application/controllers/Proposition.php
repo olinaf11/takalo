@@ -13,7 +13,7 @@ class Proposition extends CI_Controller{
     }
     public function saveProp(){
         $objetDemander=$this->input->get('objet');
-        $objetProposer=$this->objet->getObjectByUser($_SESSION['user']);
-        $this->proposition->insert($objetProposer, $objetDemander);
+        $objetEchanger=$this->objet->getObjectByUser($_SESSION['user']);
+        $this->proposition->insert($objetEchanger, $objetDemander);
     }
 }
