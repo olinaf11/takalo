@@ -17,5 +17,17 @@
 	} ?>
 </table> 
 <?php echo $_SESSION['id'] ; ?>
+
+<form action="Login/ajoutCat" method="get">
+	<input type="text" name="categori">
+	<button>Ajouter</button>
+</form>
+
+
+
+
+
+
+
 </body>
 </html>

@@ -28,13 +28,8 @@ class Login extends CI_Controller{
             $_SESSION['erreur'] = "Erreur de mot de passe ou mail";
             Redirect(base_url('login'));
         }else{
-<<<<<<< HEAD
             $_SESSION['id'] = $data['id'];
             Redirect(base_url('login/load_acceuil'));
-=======
-            $_SESSION['id'] = $this->login->getId($email, $password)['id'];
-            redirect(base_url('accueil'));
->>>>>>> 20f0f0d5e4afe447abea8f447611c1430688f1d9
         }
     }
 

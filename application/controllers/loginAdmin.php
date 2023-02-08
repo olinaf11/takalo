@@ -35,4 +35,11 @@ class LoginAdmin extends CI_Controller{
     	$this->load->view('acceuilAdmin',$data);
     	// $this->load->view('acceuilAdmin');
     }
+    public function ajoutCat(){
+    	$this->input->get('categori');
+        $this->load->model('ajoutCat_model');
+        $this->ajoutCat_model->ajout($nom);
+        Redirect('acceuilAdmin');
+
+    }
 }

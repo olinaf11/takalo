@@ -8,10 +8,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 <form  method="post" action="LoginAdmin/traitForm">
-	 Mail:<input type="text" name="email">
+	 Mail:<input type="text" name="email" value="admin@gmail.com">
 	<br>
 	<br>
-	MDP:<input type="text" name="password">
+	MDP:<input type="text" name="password" value="admin">
 	<br>
 	<button type="submit">VALIDER</button>
 </form>
