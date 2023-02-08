@@ -7,12 +7,10 @@
     <meta name="keywords" content="Anime, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anime | Template</title>
+    <title>Takalo-takalo</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet">
+
+
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css')?>" type="text/css">
@@ -26,20 +24,12 @@
 </head>
 
 <body>
-    <!-- Page Preloder -->
-    <!-- <div id="preloder">
-        <div class="loader"></div>
-    </div> -->
-
-    <!-- Header Section Begin -->
     <header class="header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html">
-                            <img src="img/logo.png" alt="">
-                        </a>
+                        <img src="<?=base_url('assets/img/logo.png')?>" alt="">
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -58,6 +48,10 @@
                                         <li><a href="<?php echo base_url('signup')?>">Sign Up</a></li>
                                         <li><a href="<?php echo base_url('login')?>">Login</a></li>
                                     </ul>
+                                </li>
+                                <li <?php if ($active==3) { ?>class="active"
+                                    <?php } ?>>
+                                    <a href="<?php echo base_url('C_myobject')?>">Mes Objets</a>
                                 </li>
                             </ul>
                         </nav>

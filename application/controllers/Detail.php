@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class C_myobject extends CI_Controller{
+class Detail extends CI_Controller{
 
     public function __construct(){
         parent::__construct();
@@ -9,12 +9,12 @@ class C_myobject extends CI_Controller{
     }
     public function index(){
         $data=array();
-        $data['content']="User/myObject";
+        $data['content']="Details/details";
         $data['active']=3;
         $data['dropdown']="Categories";
-        $data['listObjet'] = $this->objet->getObjectByUser($_SESSION['id']);
+        $idobjet = $this->input->get('idObjet');
+        $data['objet']=$this->objet->getObjetByIdobj($idobjet);
         $this->load->view('index',$data);
     }
-
 }
 ?>

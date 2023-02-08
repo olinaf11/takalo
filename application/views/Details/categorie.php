@@ -18,12 +18,12 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/LandCruiser.jpg')?>">
+                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/LandCruiserV8.png')?>">
                                         
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li><a href="<?php echo base_url('C_detail')?>">Voir</a></li>
+                                            <li><a href="<?php echo base_url('Detail')?>">Voir</a></li>
                                             <li><a href="#">Echanger</a></li>
                                         </ul>
                                         <h5><a href="#">Toyota:LC300 Land Cruiser Moteur V8 </a></h5>
@@ -32,12 +32,12 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/Touareg.jpg')?>">
+                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/Touareg.png')?>">
                                         
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li><a href="<?php echo base_url('C_detail')?>">Voir</a></li>
+                                            <li><a href="<?php echo base_url('Detail')?>">Voir</a></li>
                                             <li><a href="#">Echanger</a></li>
                                         </ul>
                                         <h5><a href="#">Volkswagen: Touager - Phase 3 TDI</a></h5>
@@ -46,12 +46,12 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/VXR.jpg')?>">
+                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/VXR.png')?>">
                                         
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li><a href="<?php echo base_url('C_detail')?>">Voir</a></li>
+                                            <li><a href="<?php echo base_url('Detail')?>">Voir</a></li>
                                             <li><a href="#">Echanger</a></li>
                                         </ul>
                                         <h5><a href="#">Vauxhall: VXR 8</a></h5>
@@ -77,12 +77,12 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/Mac.jpg')?>">
+                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/Mac.png')?>">
                                         
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li><a href="<?php echo base_url('C_detail')?>">Voir</a></li>
+                                            <li><a href="<?php echo base_url('Detail')?>">Voir</a></li>
                                             <li><a href="#">Echanger</a></li>
                                         </ul>
                                         <h5><a href="#">MacBoock Air M1 2020</a></h5>
@@ -91,12 +91,12 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/AsusRog.jpg')?>">
+                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/AsusRog.png')?>">
                                         
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li><a href="<?php echo base_url('C_detail')?>">Voir</a></li>
+                                            <li><a href="<?php echo base_url('Detail')?>">Voir</a></li>
                                             <li><a href="#">Echanger</a></li>
                                         </ul>
                                         <h5><a href="#">AsusRog RTX 3080 I9 12eme Gen</a></h5>
@@ -105,12 +105,12 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/AcerNitro.jpg')?>">
+                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/AcerNitro.png')?>">
                                         
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li><a href="<?php echo base_url('C_detail')?>">Voir</a></li>
+                                            <li><a href="<?php echo base_url('Detail')?>">Voir</a></li>
                                             <li><a href="#">Echanger</a></li>
                                         </ul>
                                         <h5><a href="#">AcerNitro 5 AN517-52-75V4</a></h5>
@@ -136,12 +136,12 @@
                         <div class="row">
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/iPhone.jpg')?>">
+                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/iPhone.png')?>">
                                         
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li><a href="<?php echo base_url('C_detail')?>">Voir</a></li>
+                                            <li><a href="<?php echo base_url('Detail')?>">Voir</a></li>
                                             <li><a href="#">Echanger</a></li>
                                         </ul>
                                         <h5><a href="#">Apple: Iphone 13 Pro Max 128Go</a></h5>
@@ -150,12 +150,12 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/Samsung.jpg')?>">
+                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/Samsung.png')?>">
                                         
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li><a href="<?php echo base_url('C_detail')?>">Voir</a></li>
+                                            <li><a href="<?php echo base_url('Detail')?>">Voir</a></li>
                                             <li><a href="#">Echanger</a></li>
                                         </ul>
                                         <h5><a href="#">Samsung: S21 Ultra 1To</a></h5>
@@ -164,12 +164,12 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
-                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/googlePixel.jpg')?>">
+                                    <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/googlePixel.png')?>">
                                         
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
-                                            <li><a href="<?php echo base_url('C_detail')?>">Voir</a></li>
+                                            <li><a href="<?php echo base_url('Detail')?>">Voir</a></li>
                                             <li><a href="#">Echanger</a></li>
                                         </ul>
                                         <h5><a href="#">Google Pixel 6 Pro</a></h5>
@@ -197,17 +197,17 @@
                             </ul>
                             <div class="filter__gallery">
                                 <div class="product__sidebar__view__item set-bg mix day years"
-                                data-setbg="<?php echo base_url('assets/img/LandCruiser.jpg')?>">
+                                data-setbg="<?php echo base_url('assets/img/LandCruiserV8.png')?>">
                                 
                                 <h5><a href="#">Toyota:LC300 Land Cruiser Moteur V8</a></h5>
                             </div>
                             <div class="product__sidebar__view__item set-bg mix month week"
-                            data-setbg="<?php echo base_url('assets/img/AcerNitro.jpg')?>">
+                            data-setbg="<?php echo base_url('assets/img/AcerNitro.png')?>">
                             
                             <h5><a href="#">AcerNitro 5 AN517-52-75V4</a></h5>
                         </div>
                         <div class="product__sidebar__view__item set-bg mix week years"
-                        data-setbg="<?php echo base_url('assets/img/iPhone.jpg')?>">
+                        data-setbg="<?php echo base_url('assets/img/iPhone.png')?>">
                         
                         <h5><a href="#">Apple: Iphone 13 Pro Max 128Go</a></h5>
                     </div>    
