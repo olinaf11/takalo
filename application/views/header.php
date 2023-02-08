@@ -55,9 +55,6 @@
                                     <a href=""><?=$dropdown?> <span class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown">
                                         <li><a href="./categories.html">Categories</a></li>
-                                        <li><a href="./anime-details.html">Anime Details</a></li>
-                                        <li><a href="./anime-watching.html">Anime Watching</a></li>
-                                        <li><a href="./blog-details.html">Blog Details</a></li>
                                         <li><a href="<?php echo base_url('signup')?>">Sign Up</a></li>
                                         <li><a href="<?php echo base_url('login')?>">Login</a></li>
                                     </ul>
