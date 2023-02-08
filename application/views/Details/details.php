@@ -61,7 +61,54 @@
                 </div>
             </div>
         </section>
-        <!-- Anime Section End -->
+       
+        <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <div class="anime__details__review">
+                            <div class="section-title">
+                                <h5>Historique/</h5>
+                                <h5>Derniers Proprietaire:</h5>
+                            </div>
+                            <div class="anime__review__item">
+                                
+                                <div class="anime__review__item__text">
+                                    <h6>Chris Curry - <span>1 Hour ago</span></h6>
+                                </div>
+                            </div>
+                            <div class="anime__review__item">
+                                
+                                <div class="anime__review__item__text">
+                                    <h6>Lewis Mann - <span>5 Hour ago</span></h6>
+                                </div>
+                            </div>
+                            <div class="anime__review__item">
+                                
+                                <div class="anime__review__item__text">
+                                    <h6>Louis Tyler - <span>20 Hour ago</span></h6>
+                                </div>
+                            </div>
+                            <div class="anime__review__item">
+                                
+                                <div class="anime__review__item__text">
+                                    <h6>Chris Curry - <span>1 Hour ago</span></h6>
+                                    
+                                </div>
+                            </div>
+                            <div class="anime__review__item">
+                                
+                                <div class="anime__review__item__text">
+                                    <h6>Lewis Mann - <span>5 Hour ago</span></h6>
+                                  
+                                </div>
+                            </div>
+                            <div class="anime__review__item">
+                                
+                                <div class="anime__review__item__text">
+                                    <h6>Louis Tyler - <span>20 Hour ago</span></h6>
+                                *
+                                </div>
+                            </div>
+                        </div>
 
         
        

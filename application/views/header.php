@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="<?php echo base_url('assets/img/darckLogo.png')?>">
+                        <a href="#">
                             <img src="<?php echo base_url('assets/img/darckLogo.png')?>" style="width:50%;"alt="">
                         </a>
                     </div>
