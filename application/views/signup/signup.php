@@ -23,20 +23,20 @@
                 <div class="col-lg-6">
                     <div class="login__form">
                         <h3>Sign Up</h3>
-                        <form action="<?=base_url('signUp/sign')?>" method="post">
+                        <form method="post" id="form-sign">
                             <div class="input__item">
-                                <input type="text" placeholder="Email address" name="email">
+                                <input type="text" placeholder="Email address" name="email" value="jean@gamil.com">
                                 <span class="icon_mail"></span>
                             </div>
                             <div class="input__item">
-                                <input type="text" placeholder="Your Name" name="name">
+                                <input type="text" placeholder="Your Name" name="name" value="jean">
                                 <span class="icon_profile"></span>
                             </div>
                             <div class="input__item">
-                                <input type="text" placeholder="Password" name="password">
+                                <input type="password" placeholder="Password" name="password" value="jean">
                                 <span class="icon_lock"></span>
                             </div>
-                            <input type="submit" class="site-btn" value="Login Now">
+                            <button type="submit" class="site-btn" onclick="signUp()">Validez</button>
                         </form>
                     </div>
                 </div>

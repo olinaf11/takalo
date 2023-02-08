@@ -15,4 +15,11 @@ class Objet_model extends CI_Model{
         $requete = $this->db->query($sql);
         return $requete->result_array();
     }
+    public function getObjetByIdobj($objet){
+        $sql = "select * from objet where id=%i";
+        $sql = sprintf($sql, $objet);
+        $requete = $this->db->query($sql);
+        return $requete->row_array();
+    }
+
 }

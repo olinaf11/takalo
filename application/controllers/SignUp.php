@@ -4,6 +4,7 @@ class SignUp extends CI_Controller{
     public function __construct(){
         parent::__construct();
         $this->load->model('signUp_model','signup');
+        $this->load->helper('sign_helper');
     }
 
     public function index(){
@@ -17,7 +18,11 @@ class SignUp extends CI_Controller{
         $email = $this->input->post('email');
         $password = $this->input->post('password');
         $name = $this->input->post('name');
-        $this->signup->insert($email, $password, $name);
-        redirect('login');
+        if ($this->signup->getUserByMail($email)>0){
+            echo json_encode(false);
+        }else{
+            $this->signup->insert($email, $password, $name);
+            echo json_encode(true);
+        }
     }
 }
