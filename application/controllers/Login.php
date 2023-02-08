@@ -36,7 +36,9 @@ class Login extends CI_Controller{
     public function load_acceuil(){
         // $this->load->view('acceuil');
          $this->load->model('objet_model');
-        $data['val'] = $this->objet_model-> get_all_object($_SESSION['id']);
+        $data['val'] = $this->objet_model->get_all_object($_SESSION['id']);
+         $this->load->model('listeCat_model');
+        $data['valiny'] = $this->listeCat_model->get_all_categorie();
         $this->load->view('acceuil',$data);
 
     }
@@ -69,6 +71,15 @@ public function controlDelete(){
          $this->load->model('delete_model');
          $this->delete_model->delete_by_id($this->input->get('id'));
          Redirect(base_url("login/load_acceuil"));
+
+}
+public function objetParCat(){
+
+        $id = $this->input->get('idCat');
+        $this->load->model('listeObjetParCat_model');
+       $data['rep'] = $this->listeObjetParCat_model->get_all_objet($id);
+        $this->load->view('listeObjet',$data);
+
 
 }
 

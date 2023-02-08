@@ -33,6 +33,21 @@ foreach ($val as $leur){
 <?php  } ?>
 
 </table>
+<h1> OBJET PAR CATEGORIE :</h1>
+<table border="1">
+<tr>
+	<td>nom</td>
+	<td>Action</td>
+</tr>
+	<?php 
+foreach ($valiny as $le){
+?>
+	<tr>
+	<td><?php echo $le['nom'];?></td>
+	<td> <a href="objetParCat?idCat=<?php echo $le['id'] ; ?>">Voir_Les_Objet</a> </td>
+	</tr>
+<?php  } ?>
 
+</table>
 </body>
 </html>
