@@ -1,24 +1,38 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class loginAdmin extends CI_Model{
-    public function __construct(){
-        parent::__construct();
-        $this->load->model('logAdmin_model','logAdmin');
-    }
 
+class LoginAdmin extends CI_Controller{
+    
     public function index(){
-        $this->load->view('logAdmin');
+        $this->load->view('indexAdmin');
     }
-
-    public function log(){
+      public function __construct(){
+        parent::__construct();
+        $this->load->helper('url');
+        $this->load->database();
+        $this->load->model('loginAdmin_model');
+        $this->load->library('session');
+    }
+  public function traitForm(){
         $email = $this->input->post('email');
         $password = $this->input->post('password');
-        if (!$this->login->checkLogAdmin($email, $password)){
+
+        $data = array();
+        $data = $this->loginAdmin_model->checkLogin($email, $password);
+        // $this->load->view('accueil',$data);
+        if(!$data){
             $_SESSION['erreur'] = "Erreur de mot de passe ou mail";
-            redirect(base_url('logAdmin'));
+            Redirect(base_url('loginAdmin'));
         }else{
-            $_SESSION['id'] = $this->login->getId($email, $password);
-            redirect(base_url('gestionObjet'));
+            $_SESSION['id'] = $data['id'];
+            Redirect(base_url('loginAdmin/load_home'));
         }
+    }
+    public function load_home(){
+        $this->load->model('listeCat_model');
+        $data = array();
+        $data['valiny'] =$this->listeCat_model->get_all_categorie();
+    	$this->load->view('acceuilAdmin',$data);
+    	// $this->load->view('acceuilAdmin');
     }
 }
