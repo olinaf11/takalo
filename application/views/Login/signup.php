@@ -7,7 +7,7 @@
     <meta name="keywords" content="Anime, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anime | Template</title>
+    <title>Takalo</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -30,13 +30,14 @@
     
 
     <!-- Normal Breadcrumb Begin -->
-    <section class="normal-breadcrumb set-bg" data-setbg="img/normal-breadcrumb.jpg">
+    <section class="normal-breadcrumb set-bg" data-setbg="<?php echo base_url('assets/css/Takalo.jpg')?>">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="normal__breadcrumb__text">
+                    <img src="<?php echo base_url('assets/img/logo.jpg')?>" style="width:10%;"alt="">
                         <h2>Sign Up</h2>
-                        <p>Welcome to the official Anime blog.</p>
+                        <p>Bienvenu sur Takalo.</p>
                     </div>
                 </div>
             </div>
@@ -66,20 +67,10 @@
                             </div>
                             <button type="submit" class="site-btn">Login Now</button>
                         </form>
-                        <h5>Already have an account? <a href="#">Log In!</a></h5>
+                        <h5>Already have an account? <a href="<?php echo base_url('C_login')?>">Log In!</a></h5>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="login__social__links">
-                        <h3>Login With:</h3>
-                        <ul>
-                            <li><a href="#" class="facebook"><i class="fa fa-facebook"></i> Sign in With Facebook</a>
-                            </li>
-                            <li><a href="#" class="google"><i class="fa fa-google"></i> Sign in With Google</a></li>
-                            <li><a href="#" class="twitter"><i class="fa fa-twitter"></i> Sign in With Twitter</a></li>
-                        </ul>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -87,35 +78,36 @@
 
     <!-- Footer Section Begin -->
     <footer class="footer">
-        <div class="page-up">
-            <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="footer__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
-                    </div>
+    <div class="page-up">
+        <a href="#" id="scrollToTopButton"><span class="arrow_carrot-up"></span></a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer__logo">
+                    <a href=""><img src="<?php echo base_url('assets/img/darckLogo.png')?>" style="width:50%; alt=""></a>
                 </div>
-                <div class="col-lg-6">
-                    <div class="footer__nav">
-                        <ul>
-                            <li class="active"><a href="./index.html">Homepage</a></li>
-                            <li><a href="./categories.html">Categories</a></li>
-                            <li><a href="./blog.html">Our Blog</a></li>
-                            <li><a href="#">Contacts</a></li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="footer__nav">
+                    <ul>
+                        <li><p>ETU-00-Fanilo</p></li>
+                        <li><p>ETU-001991-Sabi</p></li>
+                        <li><p>ETU-002047-Elyse</p></li>
+                    </ul>
                 </div>
-                <div class="col-lg-3">
-                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+            <div class="col-lg-3">
+                <p>
+                    Projet Final S3 : Web Developpement (32h)
+                    IT-University Andoharanofotsy
+                    08-02-2023
+                 </p>
 
-                  </div>
               </div>
           </div>
-      </footer>
+      </div>
+  </footer>
       <!-- Footer Section End -->
 
       <!-- Search model Begin -->
@@ -130,14 +122,14 @@
     <!-- Search model end -->
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/player.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="<?php echo base_url('assets/js/jquery-3.3.1.min.js')?>"> </script>
+    <script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"> </script>
+    <script src="<?php echo base_url('assets/js/player.js')?>"> </script>
+    <script src="<?php echo base_url('assets/js/jquery.nice-select.min.js')?>"> </script>
+    <script src="<?php echo base_url('assets/js/mixitup.min.js')?>"> </script>
+    <script src="<?php echo base_url('assets/js/jquery.slicknav.js')?>"> </script>
+    <script src="<?php echo base_url('assets/js/owl.carousel.min.js')?>"> </script>
+    <script src="<?php echo base_url('assets/js/main.js')?>"> </script>
 
 </body>
 

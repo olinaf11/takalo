@@ -7,7 +7,7 @@
     <meta name="keywords" content="Anime, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anime | Template</title>
+    <title>Takalo</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -37,8 +37,8 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="./index.html">
-                            <img src="img/logo.png" alt="">
+                        <a href="<?php echo base_url('assets/img/darckLogo.png')?>">
+                            <img src="<?php echo base_url('assets/img/darckLogo.png')?>" style="width:50%;"alt="">
                         </a>
                     </div>
                 </div>
@@ -46,19 +46,18 @@
                     <div class="header__nav">
                         <nav class="header__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="<?php echo base_url('application/views/Acceuil/index.php')?>">Homepage</a></li>
-                                <li><a href="./categories.html">Categories <span class="arrow_carrot-down"></span></a>
+                                <li class="active"><a href="<?php echo base_url('C_home')?>">Homepage</a></li>
+                                <li><a href="<?php echo base_url('C_categorie')?>">Categories <span class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown">
-                                        <li><a href="./categories.html">Categories</a></li>
-                                        <li><a href="./anime-details.html">Anime Details</a></li>
-                                        <li><a href="./anime-watching.html">Anime Watching</a></li>
-                                        <li><a href="./blog-details.html">Blog Details</a></li>
+                                        <li><a href="<?php echo base_url('C_categorie')?>">Categories</a></li>
+                                        <li><a href="<?php echo base_url('C_myobject')?>">Mes Produits</a></li>
+                                        <li><a href="<?php echo base_url('C_ajouter')?>">Ajouter produits</a></li>
                                         <li><a href="<?php echo base_url('C_signup')?>">Sign Up</a></li>
                                         <li><a href="<?php echo base_url('C_login')?>">Login</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./blog.html">Our Blog</a></li>
-                                <li><a href="#">Contacts</a></li>
+                                <li><a href="<?php echo base_url('C_myobject')?>">Mes Produits</a></li>
+                                <li><a href="<?php echo base_url('C_ajouter')?>">Ajouter Produit</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -66,7 +65,7 @@
                 <div class="col-lg-2">
                     <div class="header__right">
                         <a href="#" class="search-switch"><span class="icon_search"></span></a>
-                        <a href="./login.html"><span class="icon_profile"></span></a>
+                        <a href="#"><span class="icon_profile"></span></a>
                     </div>
                 </div>
             </div>
@@ -74,3 +73,5 @@
         </div>
     </header>
     <!-- Header End -->
+
+    

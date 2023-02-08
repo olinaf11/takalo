@@ -1,49 +1,4 @@
-
-    <!-- Hero Section Begin -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero__slider owl-carousel">
-                <div class="hero__items set-bg" >
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="hero__text">
-                                <div class="label">Automobile</div>
-                                <h2>Puissante/ Confortable: Neuf/Occassion</h2>
-                                <p>After 30 days of travel across the world...</p>
-                                <a href="<?php echo base_url('C_categorie')?>"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero__items set-bg">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="hero__text">
-                                <div class="label">Ordinateur</div>
-                                <h2>Gaming/ Bureau: Neuf/Occassion</h2>
-                                <p>After 30 days of travel across the world...</p>
-                                <a href="<?php echo base_url('C_categorie')?>"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero__items set-bg">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="hero__text">
-                                <div class="label">SmartPhone</div>
-                                <h2>iOS / Android: Neuf/Occassion</h2>
-                                <p>After 30 days of travel across the world...</p>
-                                <a href="<?php echo base_url('C_categorie')?>"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="product spad">
+<section class="product spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -56,7 +11,7 @@
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div class="btn__all">
-                                    <a href="<?php echo base_url('C_categorie')?>" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +70,7 @@
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div class="btn__all">
-                                    <a href="<?php echo base_url('C_categorie')?>" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +129,7 @@
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-4">
                                 <div class="btn__all">
-                                    <a href="<?php echo base_url('C_categorie')?>" class="primary-btn">View All <span class="arrow_right"></span></a>
+                                    <a href="#" class="primary-btn">View All <span class="arrow_right"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -238,7 +193,7 @@
                                 <li class="active" data-filter="*">Auto</li>
                                 <li data-filter=".week">PC</li>
                                 <li data-filter=".month">Phone</li>
-
+                                
                             </ul>
                             <div class="filter__gallery">
                                 <div class="product__sidebar__view__item set-bg mix day years"
@@ -256,8 +211,8 @@
                         
                         <h5><a href="#">Apple: Iphone 13 Pro Max 128Go</a></h5>
                     </div>    
-        </div>
-    </div>
+                </div>
+            </div>
     
 </div>
 </div>
