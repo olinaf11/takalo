@@ -26,6 +26,7 @@
                             <div class="view"><i class="fa fa-eye"></i> 9141</div>
                         </div>
                     </div>
+                    
                     <div class="col-lg-9">
                         <div class="anime__details__text">
                             <div class="anime__details__title">
@@ -49,8 +50,9 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="anime__details__btn">
-                                <a href="#" class="follow-btn"><i class="fa fa-heart-o"></i> Echanger</a>
+                                <a href="<?php echo base_url('C_echanger')?>" class="follow-btn"><i class="fa fa-heart-o"></i> Echanger</a>
                                 <a href="<?php echo base_url('C_categorie')?>" class="watch-btn"><span>Watch Now</span> <i
                                     class="fa fa-angle-right"></i></a>
                                 </div>

@@ -19,7 +19,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/LandCruiser.jpg')?>">
-                                        
+                                        <div class="ep">+/- %</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 0Ar</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -33,7 +34,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/Touareg.jpg')?>">
-                                        
+                                        <div class="ep">+/- %</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 0Ar</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -47,7 +49,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/VXR.jpg')?>">
-                                        
+                                        <div class="ep">+/- %</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 0Ar</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -78,7 +81,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/Mac.jpg')?>">
-                                        
+                                        <div class="ep">+/- %</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 0Ar</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -92,7 +96,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/AsusRog.jpg')?>">
-                                        
+                                        <div class="ep">+/- %</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 0Ar</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -106,7 +111,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/AcerNitro.jpg')?>">
-                                        
+                                        <div class="ep">+/- %</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 0Ar</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -137,7 +143,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/iPhone.jpg')?>">
-                                        
+                                        <div class="ep">+/- %</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 0Ar</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -151,7 +158,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/Samsung.jpg')?>">
-                                        
+                                        <div class="ep">+/- %</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 0Ar</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -165,7 +173,8 @@
                             <div class="col-lg-4 col-md-6 col-sm-6">
                                 <div class="product__item">
                                     <div class="product__item__pic set-bg" data-setbg="<?php echo base_url('assets/img/googlePixel.jpg')?>">
-                                        
+                                        <div class="ep">+/- %</div>
+                                        <div class="view"><i class="fa fa-eye"></i> 0Ar</div>
                                     </div>
                                     <div class="product__item__text">
                                         <ul>
@@ -187,7 +196,7 @@
                     <div class="product__sidebar">
                         <div class="product__sidebar__view">
                             <div class="section-title">
-                                <h5>Top Views</h5>
+                                <h5>Suggestion</h5>
                             </div>
                             <ul class="filter__controls">
                                 <li class="active" data-filter="*">Auto</li>

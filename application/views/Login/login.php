@@ -107,7 +107,7 @@
             <div class="col-lg-6">
                 <div class="footer__nav">
                     <ul>
-                        <li><p>ETU-00-Fanilo</p></li>
+                        <li><p>ETU-002028-Fanilo</p></li>
                         <li><p>ETU-001991-Sabi</p></li>
                         <li><p>ETU-002047-Elyse</p></li>
                     </ul>
