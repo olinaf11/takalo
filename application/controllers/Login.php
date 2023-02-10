@@ -34,23 +34,20 @@ class Login extends CI_Controller{
     }
 
     public function load_acceuil(){
-        // $this->load->view('acceuil');
          $this->load->model('objet_model');
         $data['val'] = $this->objet_model->get_all_object($_SESSION['id']);
+        // 
          $this->load->model('listeCat_model');
         $data['valiny'] = $this->listeCat_model->get_all_categorie();
+        // 
+        $this->load->model('objetAutre_model');
+        $data['autre'] = $this->objetAutre_model->autre($_SESSION['id']);
+        // 
         $this->load->view('acceuil',$data);
 
     }
-    // public function load_modif(){
-    //     $this->load->view('modif');
-    // }
-    //   public function objet_user(){
    
 public function traitmodif(){
-// $id = $this->input->get('id');
-// $nom = $this->input->get('nom');
-// $prix = $this->input->get('prix');
 $data['ide'] = $this->input->get('id');
 $data['nom'] = $this->input->get('nom');
 $data['prix'] = $this->input->get('prix');
@@ -79,8 +76,10 @@ public function objetParCat(){
         $this->load->model('listeObjetParCat_model');
        $data['rep'] = $this->listeObjetParCat_model->get_all_objet($id);
         $this->load->view('listeObjet',$data);
-
-
 }
+
+
+
+
 
 }

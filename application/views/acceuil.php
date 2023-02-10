@@ -49,5 +49,25 @@ foreach ($valiny as $le){
 <?php  } ?>
 
 </table>
+
+
+<h1>OBJET DES AUTRES UTILISATEUR:</h1>
+<table border="1">
+<tr>
+	<td>nom</td>
+	<td>Action</td>
+</tr>
+	<?php 
+foreach ($autre as $autrui){
+?>
+	<tr>
+	<td><?php echo $autrui['id'];?></td>
+	<td> <a href="">Ecahnger</a> </td>
+	</tr>
+<?php  } ?>
+
+</table>
+
+
 </body>
 </html>
